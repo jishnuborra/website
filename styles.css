@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left:100px;
+    font-family: "Hero", Times, serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    color: #F9FAF8;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right:100px;
+}
