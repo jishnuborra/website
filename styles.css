@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
 body{
     margin: 0;
 }
@@ -13,9 +14,9 @@ body{
 
 .logo{
     color: #F9FAF8;
-    font-size: 24px;
-    margin-left:100px;
-    font-family: "Hero", Times, serif;
+    font-size: 32px;
+    margin-left: 450px;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 
@@ -43,5 +44,81 @@ ul {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-right:100px;
+    margin-right:455px;
+}
+
+.mainbody{
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items:center;
+}
+
+.textmain{
+    color:#F9FAF8;
+    justify-content: center;
+    padding: 7em 0;
+}
+
+.maintext{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-right: 100px;
+}
+
+.fillertext{
+    margin:3px;
+    font-size: 18px;
+}
+
+.mainimage{
+    display:flex;
+    max-height: 200px;
+    max-width: 15000px;
+}
+
+.mbody{
+    text-align: center;
+}
+
+.maintitle {
+    margin-top:10px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+.quotesection{
+    background: lightgray;
+    padding: 7em 13em;
+}
+
+.quote{
+    text-align: center;
+    font-size: 32px;
+}
+
+.author{
+    font-size: 18px;
+    margin-left: 970px;
+}
+
+.footer{
+    height: 36px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
